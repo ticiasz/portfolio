@@ -3,6 +3,7 @@
 
 :root{
     --preto: #2D2C31;
+    --branco: #f3eff3;
     --roxo-escuro: #4A3B67;
     --roxo-médio: #A37CF1;
     --roxo-claro: #CFA3F5;
@@ -12,6 +13,7 @@
 
 body{
     background-color: var(--preto);
+    color: var(--branco);
 }
 
 h1{
