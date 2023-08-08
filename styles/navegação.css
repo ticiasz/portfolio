@@ -1,0 +1,10 @@
+.barra-lateral{
+    position: fixed;
+    width: 10%;
+    height: 100vh;
+    background-color: var(--roxo-claro);
+}
+
+.lateral__navegação{
+    position: relative;
+}

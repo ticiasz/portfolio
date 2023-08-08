@@ -1,4 +1,5 @@
 @import url(styles/sobre.css);
+@import url(styles/navegação.css);
 
 :root{
     --preto: #2D2C31;
@@ -15,4 +16,10 @@ body{
 
 h1{
     font-size: 35px;
+}
+
+.conteúdo{
+    position: relative;
+    width: 90%;
+    float: right;
 }
