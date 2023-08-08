@@ -2,9 +2,26 @@
     position: fixed;
     width: 10%;
     height: 100vh;
-    background-color: var(--roxo-claro);
+    /* background-color: var(--roxo-claro); */
 }
 
 .lateral__navegação{
     position: relative;
+    top: 40%;
+}
+
+.navegação__lista{
+    text-align: right;
+}
+
+.navegação__lista li{
+    padding: 1.5rem 0.5rem 0.5rem 0;
+    border-bottom: 1px solid var(--roxo-médio);
+}
+
+.lista__item{
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    color: var(--branco);
+    
 }
