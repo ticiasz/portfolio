@@ -9,6 +9,8 @@
     --roxo-claro: #CFA3F5;
     --rosa-médio: #FA8E9B;
     --rosa-claro: #EAD9FC;
+    --fonte-principal: "Magic Retro";
+    --fonte-secundária: "Comfortaa", cursive;
 }
 
 body{
@@ -17,12 +19,12 @@ body{
 }
 
 h1{
-    font-family: Magic Retro;
+    font-family: var(--fonte-principal);
     font-size: 45px;
 }
 
 p{
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte-secundária);
 }
 
 .conteúdo{

@@ -21,7 +21,7 @@
 
 .lista__item{
     text-decoration: none;
-    font-family: 'Comfortaa', cursive;
+    font-family: var(--fonte-secundária);
     color: var(--branco);
     
 }
