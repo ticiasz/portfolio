@@ -1,0 +1,25 @@
+:root{
+    --preto: #2D2C31;
+    --roxo-escuro: #4A3B67;
+    --roxo-médio: #A37CF1;
+    --roxo-claro: #CFA3F5;
+    --rosa-médio: #FA8E9B;
+    --rosa-claro: #EAD9FC;
+}
+
+body{
+    background-color: var(--preto);
+}
+
+h1{
+    font-size: 35px;
+}
+
+.sobre{
+    display: flex;
+}
+
+.sobre__card{
+    display: flex;
+    flex-direction: column;
+}
