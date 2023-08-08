@@ -15,11 +15,21 @@ body{
 }
 
 h1{
-    font-size: 35px;
+    font-family: Magic Retro;
+    font-size: 45px;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
 }
 
 .conteúdo{
     position: relative;
     width: 90%;
     float: right;
+}
+
+@font-face {
+    font-family: "Magic Retro";
+    src: url(fonts/magic_retro/Magic\ Retro.ttf);
 }
