@@ -1,10 +1,27 @@
 .redes-sociais{
     display: flex;
+    justify-content: space-around;
     /* flex-direction: row; */
 }
 
 .redes__link{
     display: flex;
-    width: 20%;
-    background-color: var(--branco);
+    justify-content: space-between;
+    align-items: center;
+    background: var(--roxo-degradê);
+    width: 15%;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+}
+
+.link__texto{
+    color: var(--preto);
+    font-family: var(--fonte-secundária);
+    font-weight: 700;
+}
+
+.link__texto h3{
+    font-size: 24px;
+    margin-bottom: 0.5rem;
 }

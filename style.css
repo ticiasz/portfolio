@@ -10,6 +10,7 @@
     --roxo-claro: #CFA3F5;
     --rosa-médio: #FA8E9B;
     --rosa-claro: #EAD9FC;
+    --roxo-degradê: linear-gradient(to left, #A37CF1, #CFA3F5 30%, #FA8E9B);
     --fonte-principal: "Magic Retro";
     --fonte-secundária: "Comfortaa", cursive;
 }
