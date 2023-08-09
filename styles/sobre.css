@@ -24,18 +24,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 35%;
+    width: 30%;
     border: 3px solid var(--roxo-escuro);
     border-radius: 10px;
-    padding: 3rem;
+    padding: 4rem 2rem;
 }
 
 .card__imagem{
-    width: 80%;
+    width: 75%;
 }
 
 .card__texto{
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: center;
 }
 
