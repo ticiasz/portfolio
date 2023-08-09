@@ -4,12 +4,19 @@
 }
 
 .projetos__card{
-    border: 2px solid var(--roxo-escuro);
-    width: 25%;
+    border: 3px solid var(--roxo-escuro);
+    width: 30%;
 }
 
+/* adicionar sombra e tals */
+
 .projetos__imagem{
-    height: 100px;
+    /* height: 100px; */
+    box-sizing: border-box;
+}
+
+.projetos__imagem img{
+    width: 100%;
 }
 
 .projetos__descrição{
@@ -24,4 +31,5 @@
 
 .projetos__tópicos{
     color: var(--rosa-claro);
+    font-size: 14px;
 }
