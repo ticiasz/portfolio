@@ -1,0 +1,10 @@
+.redes-sociais{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.redes__link{
+    display: flex;
+    width: 20%;
+    background-color: var(--branco);
+}
