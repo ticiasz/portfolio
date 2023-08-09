@@ -1,6 +1,7 @@
 @import url(styles/sobre.css);
 @import url(styles/navegação.css);
 @import url(styles/redes_sociais.css);
+@import url(styles/projetos.css);
 
 :root{
     --preto: #2D2C31;
@@ -28,6 +29,11 @@ h1{
 h2{
     font-family: var(--fonte-principal);
     font-size: 40px;
+    margin: 3rem 0 2rem 1rem;
+}
+
+h3{
+    font-family: var(--fonte-secundária);
 }
 
 p{

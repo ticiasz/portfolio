@@ -1,0 +1,27 @@
+.projetos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projetos__card{
+    border: 2px solid var(--roxo-escuro);
+    width: 25%;
+}
+
+.projetos__imagem{
+    height: 100px;
+}
+
+.projetos__descrição{
+    height: 50%;
+    padding: 1rem 2rem;
+}
+
+.projetos__descrição h3{
+    font-size: 24px;
+    margin: 1rem 0;
+}
+
+.projetos__tópicos{
+    color: var(--rosa-claro);
+}
