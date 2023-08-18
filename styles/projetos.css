@@ -23,8 +23,8 @@
 }
 
 .projetos__descrição{
-    height: 50%;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
+    box-sizing: border-box;
 }
 
 .projetos__descrição h3{
@@ -35,4 +35,19 @@
 .projetos__tópicos{
     color: var(--rosa-claro);
     font-size: 14px;
+}
+
+.projetos__texto{
+    margin-bottom: 1.5rem;
+}
+
+.projetos__links a{
+    font-family: var(--fonte-secundária);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--preto);
+    border-radius: 10px;
+    background: var(--roxo-degradê);
+    margin-right: 1.5rem;
+    padding: 0.5rem 1rem;
 }
