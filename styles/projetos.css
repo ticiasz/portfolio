@@ -1,11 +1,14 @@
 .projetos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 3rem;
 }
 
 .projetos__card{
     border: 3px solid var(--roxo-escuro);
     width: 30%;
+    margin-bottom: 3rem;
 }
 
 /* adicionar sombra e tals */
