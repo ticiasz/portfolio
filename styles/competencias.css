@@ -5,20 +5,37 @@
     margin: 0 3rem;
 }
 
+.comp__card{
+    width: 20%;
+}
+
 .comp__card h3{
     font-size: 22px;
     text-transform: uppercase;
+    border-left: 3px solid var(--roxo-médio);
+    padding-left: 6px;
+    margin-bottom: 10px;
 }
 
 .comp__descrição{
-    border: 3px solid var(--roxo-escuro);
+    border: 3px solid var(--roxo-médio);
 }
 
 .comp__descrição div:not(:last-child){
-    border-bottom: 3px solid var(--roxo-escuro);
+    border-bottom: 2px solid var(--roxo-médio);
+}
+
+.descrição__card{
+    padding: 0 5px;
 }
 
 .descrição__card p{
-    padding: 3px 5px;
-    border-bottom: 3px solid var(--roxo-escuro);
+    padding: 5px;
+    border-bottom: 2px solid var(--roxo-escuro);
+}
+
+.comp__lista{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
 }
