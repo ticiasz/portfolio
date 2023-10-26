@@ -2,6 +2,7 @@
 @import url(styles/navegação.css);
 @import url(styles/redes_sociais.css);
 @import url(styles/projetos.css);
+@import url(styles/competencias.css);
 
 :root{
     --preto: #2D2C31;
