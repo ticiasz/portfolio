@@ -4,3 +4,21 @@
     flex-wrap: wrap;
     margin: 0 3rem;
 }
+
+.comp__card h3{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.comp__descrição{
+    border: 3px solid var(--roxo-escuro);
+}
+
+.comp__descrição div:not(:last-child){
+    border-bottom: 3px solid var(--roxo-escuro);
+}
+
+.descrição__card p{
+    padding: 3px 5px;
+    border-bottom: 3px solid var(--roxo-escuro);
+}
