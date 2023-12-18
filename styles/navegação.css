@@ -22,7 +22,7 @@
 .navegação__lista li:hover{
     background-color: var(--roxo-escuro);
     border-bottom: 1px solid var(--roxo-claro);
-    transition: 0.6s;
+    transition-duration: 0.6s;
     .lista__item{
         color: var(--rosa-claro);
     }

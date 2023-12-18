@@ -15,6 +15,11 @@
     text-decoration: none;
 }
 
+.redes__link:hover{
+    animation: moveToLeft 0.4s ease-in;
+    animation-fill-mode: forwards;
+}
+
 .link__texto{
     color: var(--preto);
     font-family: var(--fonte-secundária);
@@ -24,4 +29,22 @@
 .link__texto h3{
     font-size: 24px;
     margin-bottom: 0.5rem;
+}
+
+@keyframes moveToLeft {
+    20%{
+        background: linear-gradient(to left, #A37CF1, #CFA3F5 50%, #FA8E9B);
+    }
+    40%{
+        background: linear-gradient(to left, #A37CF1 20%, #CFA3F5 70%, #FA8E9B);
+    }
+    60%{
+        background: linear-gradient(to left, #A37CF1 50%, #CFA3F5 90%, #FA8E9B);
+    }
+    80%{
+        background: linear-gradient(to left, #A37CF1 90%, #CFA3F5 100%, #FA8E9B);
+    }
+    100%{
+        background: #A37CF1;
+    }
 }
