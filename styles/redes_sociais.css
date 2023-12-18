@@ -13,7 +13,7 @@
     border-radius: 8px;
     padding: 1.5rem 2rem;
     text-decoration: none;
-    box-shadow: 5px 5px 8px var(--roxo-escuro);
+    box-shadow: 5px 5px 8px #191919;
 }
 
 .redes__link:hover{
